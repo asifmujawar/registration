@@ -1,0 +1,201 @@
+html, body {
+    padding: 0;
+    overflow-x:hidden ;
+    overflow-y: hidden;
+    margin: 0;
+  } 
+
+#home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#home .containerr{
+    text-align: center;
+    align-items: center;
+    height: 640px;
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+#home .containerr .circle1{
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    background-color: rgb(0, 110, 255);
+
+    position: absolute;
+    top: -120px;
+    right: -40px;
+}
+
+#home .containerr .circle2{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 110, 255);
+
+    position: absolute;
+    bottom: -160px;
+    left: -50px;
+}
+
+#home .containerr .imgbox{
+    text-align: center;
+}
+
+#home .containerr .imgbox img{
+    width: 80%;
+    margin-top: 100px;
+}
+
+#home .containerr .buttons{
+    margin-top: -20px;
+    text-align: center;
+}
+
+.login{
+    width: 180px;
+    margin-top: ;
+    padding: 12px ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.register{
+    width: 180px;
+    margin-top: 17px;
+    padding: 12px ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#home .containerr .buttons a{
+    text-decoration: none;
+    color: white;
+}
+
+#home .containerr .data{
+ 
+    padding: 20px;
+    margin-top: -120px;
+    text-align: center;
+}
+
+#home .containerr .background{
+    z-index: -100;
+    height: 180px;
+    background-color: rgb(0, 110, 255);
+    clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 100%);
+}
+
+#home .containerr .profile{
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    outline: none;
+    border: 2px solid black;
+}
+#home .containerr .profile img{
+    width: 100%;
+}
+
+#home .containerr .data input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 15px;
+    color: grey;
+
+}
+
+#home .containerr .data .register{
+    margin-top: 30px;
+}
+
+
+#home .containerr .data2 input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    background-color: rgb(230, 233, 233);
+}
+#home .containerr .data2{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#home .containerr .data2 button{
+    margin-top: 30px;
+}
+
+.img {
+text-align:center;
+}
+.img img{
+    height: 150px;
+    width: 150px;
+}
+
+#home .containerr .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    font-size: 38px;
+}
+
+p{
+    font-weight: bold;
+}
+
+#home .containerr .data2 .alert{
+    
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 80%;
+}
